@@ -1,0 +1,27 @@
+table,th,td {
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-collapse: collapse;
+    padding: 0px;
+}
+
+td {
+    width: 40px;
+    height: 40px;
+}
+td.small {
+    width: 20px;
+    height: 20px;
+}
+
+td:nth-child(odd){
+    background-color: red;
+}
+td:nth-child(even){
+    background-color: blue;
+}
+
+td.small:nth-child(even){
+    background-color: orange; 
+}
